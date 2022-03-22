@@ -1,0 +1,17 @@
+C:\Users\Drekorig\Documents\ootr_gst\TrackerEditorLibrary\bin\Debug\net6.0-windows\TrackerEditorLibrary.deps.json
+C:\Users\Drekorig\Documents\ootr_gst\TrackerEditorLibrary\bin\Debug\net6.0-windows\TrackerEditorLibrary.dll
+C:\Users\Drekorig\Documents\ootr_gst\TrackerEditorLibrary\bin\Debug\net6.0-windows\ref\TrackerEditorLibrary.dll
+C:\Users\Drekorig\Documents\ootr_gst\TrackerEditorLibrary\bin\Debug\net6.0-windows\TrackerEditorLibrary.pdb
+C:\Users\Drekorig\Documents\ootr_gst\TrackerEditorLibrary\bin\Debug\net6.0-windows\OOTRandoLibrary.dll
+C:\Users\Drekorig\Documents\ootr_gst\TrackerEditorLibrary\bin\Debug\net6.0-windows\OOTRandoLibrary.pdb
+C:\Users\Drekorig\Documents\ootr_gst\TrackerEditorLibrary\obj\Debug\net6.0-windows\TrackerEditorLibrary.csproj.AssemblyReference.cache
+C:\Users\Drekorig\Documents\ootr_gst\TrackerEditorLibrary\obj\Debug\net6.0-windows\TrackerEditorLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Drekorig\Documents\ootr_gst\TrackerEditorLibrary\obj\Debug\net6.0-windows\TrackerEditorLibrary.AssemblyInfoInputs.cache
+C:\Users\Drekorig\Documents\ootr_gst\TrackerEditorLibrary\obj\Debug\net6.0-windows\TrackerEditorLibrary.AssemblyInfo.cs
+C:\Users\Drekorig\Documents\ootr_gst\TrackerEditorLibrary\obj\Debug\net6.0-windows\TrackerEditorLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Drekorig\Documents\ootr_gst\TrackerEditorLibrary\obj\Debug\net6.0-windows\TrackerEditorLibrary.csproj.CopyComplete
+C:\Users\Drekorig\Documents\ootr_gst\TrackerEditorLibrary\obj\Debug\net6.0-windows\TrackerEditorLibrary.dll
+C:\Users\Drekorig\Documents\ootr_gst\TrackerEditorLibrary\obj\Debug\net6.0-windows\ref\TrackerEditorLibrary.dll
+C:\Users\Drekorig\Documents\ootr_gst\TrackerEditorLibrary\obj\Debug\net6.0-windows\TrackerEditorLibrary.pdb
+C:\Users\Drekorig\Documents\ootr_gst\TrackerEditorLibrary\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\Drekorig\Documents\ootr_gst\TrackerEditorLibrary\bin\Debug\net6.0-windows\Newtonsoft.Json.xml

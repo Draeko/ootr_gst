@@ -44,8 +44,35 @@ namespace TrackerOOT
             };
             nb_items.Location = new Point(0, 0);
             nb_items.MouseDown += new MouseEventHandler(label_collectedSkulls_MouseDown);
+            if(Form1.EnableMouseWheel_CollectedItems)
+                nb_items.MouseWheel += this.Nb_items_MouseWheel;
 
             this.Controls.Add(nb_items);
+        }
+
+        private void Nb_items_MouseWheel(object sender, MouseEventArgs e)
+        {
+            var label_collectedSkulls = (Label)sender;
+            var intLabelText = Convert.ToInt32(label_collectedSkulls.Text);
+            if (e.Delta < 0)
+            {
+                if (Form1.MouseWheel_CollectedItems_IncreaseWithScrollUp)
+                {
+                    if (intLabelText > 0) intLabelText--;
+                }
+                else intLabelText++;
+            }
+            if (e.Delta > 0)
+            {
+                if (Form1.MouseWheel_CollectedItems_IncreaseWithScrollUp)
+                    intLabelText++;
+                else if(intLabelText > 0) intLabelText--;
+            }
+
+            if (intLabelText < 10)
+                label_collectedSkulls.Text = "0" + intLabelText.ToString();
+            else
+                label_collectedSkulls.Text = intLabelText.ToString();
         }
 
         private void label_collectedSkulls_MouseDown(object sender, MouseEventArgs e)

@@ -30,11 +30,11 @@ namespace TrackerOOT
 
         public AppSettings App_Settings = new AppSettings();
 
-        public void LoadLayout(Form form, string layoutName, bool songMode, bool autoCheck, SortedSet<string> listSometimesHintsSuggestions, Dictionary<string, string> listPlacesWithTag)
+        public void LoadLayout(Form form, SortedSet<string> listSometimesHintsSuggestions, Dictionary<string, string> listPlacesWithTag)
         {
-            if (layoutName != string.Empty)
+            if (Form1.ActiveLayoutName != string.Empty)
             {
-                JObject json_layouts = JObject.Parse(File.ReadAllText(@"Layouts/" + layoutName + ".json"));
+                JObject json_layouts = JObject.Parse(File.ReadAllText(@"Layouts/" + Form1.ActiveLayoutName + ".json"));
                 foreach (var category in json_layouts)
                 {
                     if (category.Key.ToString() == "AppSize")
@@ -146,8 +146,7 @@ namespace TrackerOOT
                 {
                     foreach (var item in ListItems)
                     {
-                        if (item.Visible)
-                            form.Controls.Add(new Item(item));
+                        form.Controls.Add(new Item(item));
                     }
                 }
 
@@ -156,7 +155,7 @@ namespace TrackerOOT
                     foreach (var song in ListSongs)
                     {
                         if (song.Visible)
-                            form.Controls.Add(new Song(song, songMode, autoCheck));
+                            form.Controls.Add(new Song(song));
                     }
                 }
 
@@ -164,8 +163,7 @@ namespace TrackerOOT
                 {
                     foreach (var doubleItem in ListDoubleItems)
                     {
-                        if (doubleItem.Visible)
-                            form.Controls.Add(new DoubleItem(doubleItem));
+                        form.Controls.Add(new DoubleItem(doubleItem));
                     }
                 }
 
@@ -197,8 +195,7 @@ namespace TrackerOOT
                 {
                     foreach (var item in ListGuaranteedHints)
                     {
-                        if (item.Visible)
-                            form.Controls.Add(new GuaranteedHint(item));
+                        form.Controls.Add(new GuaranteedHint(item));
                     }
                 }
 
@@ -206,8 +203,7 @@ namespace TrackerOOT
                 {
                     foreach (var item in ListGossipStones)
                     {
-                        if (item.Visible)
-                            form.Controls.Add(new GossipStone(item));
+                        form.Controls.Add(new GossipStone(item));
                     }
                 }
 
@@ -277,14 +273,12 @@ namespace TrackerOOT
 
     public class ObjectPoint
     {
-        public string Id { get; set; }
         public string Name { get; set; }
         public int X { get; set; }
         public int Y { get; set; }
         public Size Size { get; set; }
-        public bool Visible { get; set; }
         public string[] ImageCollection { get; set; }
-        public string[] TinyImageCollection { get; set; }
+        public int IndexFirstImage { get; set; }
     }
 
     public class ObjectPointSong
@@ -358,13 +352,14 @@ namespace TrackerOOT
         public string TextBoxText { get; set; }
 
         public Color LabelColor { get; set; }
+        public Color LabelColor2 { get; set; }
+        public Color LabelColor3 { get; set; }
         public Color LabelBackColor { get; set; }
         public string LabelFontName { get; set; }
         public int LabelFontSize { get; set; }
         public FontStyle LabelFontStyle { get; set; }
         public int LabelWidth { get; set; }
         public int LabelHeight { get; set; }
-
         public Size GossipStoneSize { get; set; }
         public string[] GossipStoneImageCollection { get; set; }
     }

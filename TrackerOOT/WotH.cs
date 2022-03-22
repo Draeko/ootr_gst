@@ -14,8 +14,11 @@ namespace TrackerOOT
         public List<GossipStone> listGossipStone = new List<GossipStone>();
         public string Name;
         int LabelPlaceNbClick = 0;
+        Color woth1;
+        Color woth2;
+        Color woth3;
 
-        public WotH(string selectedPlace, string[] listImage, Point lastLabelLocation, Label labelSettings, Size gossipStoneSize)
+        public WotH(string selectedPlace, string[] listImage, Point lastLabelLocation, Label labelSettings, Size gossipStoneSize, Color[] wothColors)
         {
             this.Name = selectedPlace;
 
@@ -44,6 +47,10 @@ namespace TrackerOOT
                     listGossipStone.Add(newGossipStone);
                 }
             }
+
+            this.woth1 = wothColors[0];
+            this.woth2 = wothColors[1];
+            this.woth3 = wothColors[2];
         }
 
         private void label_woth_MouseDown(object sender, MouseEventArgs e)
@@ -53,15 +60,15 @@ namespace TrackerOOT
                 switch (LabelPlaceNbClick)
                 {
                     case 0:
-                        LabelPlace.ForeColor = Color.Orange;
+                        LabelPlace.ForeColor = woth2;
                         LabelPlaceNbClick++;
                         break;
                     case 1:
-                        LabelPlace.ForeColor = Color.Crimson;
+                        LabelPlace.ForeColor = woth3;
                         LabelPlaceNbClick++;
                         break;
                     case 2:
-                        LabelPlace.ForeColor = Color.White;
+                        LabelPlace.ForeColor = woth1;
                         LabelPlaceNbClick = 0;
                         break;
                 }

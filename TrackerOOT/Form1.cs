@@ -17,12 +17,23 @@ namespace TrackerOOT
         SortedSet<String> ListPlaces = new SortedSet<String>();
         SortedSet<String> ListSometimesHintsSuggestions = new SortedSet<string>();
 
-        Layout CurrentLayout = new Layout();
+        public static Layout CurrentLayout = new Layout();
         PictureBox pbox_collectedSkulls;
 
-        bool SongMode = false;
-        bool AutoCheck = false;
-        string ActiveLayoutName = string.Empty;
+        private MenuStrip MenuBar = new MenuStrip();
+        private ToolStripMenuItem Editor = new ToolStripMenuItem("Edit Layout");
+
+        public static bool SongMode = false;
+        public static bool AutoCheck = false;
+        public static string ActiveLayoutName = string.Empty;
+        public static bool EnableMouseWheel_Items = false;
+        public static bool EnableMouseWheel_Medallions = false;
+        public static bool EnableMouseWheel_GossipStones = false;
+        public static bool EnableMouseWheel_CollectedItems = false;
+        public static bool MouseWheel_Items_IncreaseWithScrollUp = false;
+        public static bool MouseWheel_Medallions_IncreaseWithScrollUp = false;
+        public static bool MouseWheel_GossipStones_IncreaseWithScrollUp = false;
+        public static bool MouseWheel_CollectedItems_IncreaseWithScrollUp = false;
 
         public Form1()
         {
@@ -38,19 +49,17 @@ namespace TrackerOOT
                 e.SuppressKeyPress = true;
                 this.Form1_Load(sender, new EventArgs());
             }
-
-            if(e.KeyCode == Keys.F2)
-            {
-                var window = new Editor(CurrentLayout);
-                window.Show();
-            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            this.Text = "Items&Hints Tracker v1.8.3";
+            this.Text = "Items&Hints Tracker v1.8.4";
             this.AcceptButton = null;
             this.MaximizeBox = false;
+            MenuBar.Items.Add(Editor);
+            Editor.Click += Editor_Click;
+            this.Controls.Add(MenuBar);
+            MenuBar.Hide();
 
             ListPlaces.Clear();
             ListPlaces.Add("");
@@ -79,22 +88,70 @@ namespace TrackerOOT
                 {
                     SongMode = Convert.ToBoolean(property.Value);
                 }
-                if(property.Key == "AutoCheckSongs")
+                if (property.Key == "AutoCheckSongs")
                 {
                     AutoCheck = Convert.ToBoolean(property.Value);
                 }
-                if(property.Key == "ActiveLayout")
+                if (property.Key == "ActiveLayout")
                 {
                     ActiveLayoutName = property.Value.ToString();
                 }
+                if (property.Key == "EnableMouseWheel_Items")
+                {
+                    EnableMouseWheel_Items = Convert.ToBoolean(property.Value);
+                }
+                if (property.Key == "EnableMouseWheel_Medallions")
+                {
+                    EnableMouseWheel_Medallions = Convert.ToBoolean(property.Value);
+                }
+                if (property.Key == "EnableMouseWheel_GossipStones")
+                {
+                    EnableMouseWheel_GossipStones = Convert.ToBoolean(property.Value);
+                }
+                if (property.Key == "EnableMouseWheel_CollectedItems")
+                {
+                    EnableMouseWheel_CollectedItems = Convert.ToBoolean(property.Value);
+                }
+                if (property.Key == "MouseWheel_Items_IncreaseWithScrollUp")
+                {
+                    MouseWheel_Items_IncreaseWithScrollUp = Convert.ToBoolean(property.Value);
+                }
+                if (property.Key == "MouseWheel_Medallions_IncreaseWithScrollUp")
+                {
+                    MouseWheel_Medallions_IncreaseWithScrollUp = Convert.ToBoolean(property.Value);
+                }
+                if (property.Key == "MouseWheel_GossipStones_IncreaseWithScrollUp")
+                {
+                    MouseWheel_GossipStones_IncreaseWithScrollUp = Convert.ToBoolean(property.Value);
+                }
+                if (property.Key == "MouseWheel_CollectedItems_IncreaseWithScrollUp")
+                {
+                    MouseWheel_CollectedItems_IncreaseWithScrollUp = Convert.ToBoolean(property.Value);
+                }
             }
 
-            CurrentLayout.LoadLayout(this, ActiveLayoutName, SongMode, AutoCheck, ListSometimesHintsSuggestions, ListPlacesWithTag);
-            
-            
-            this.KeyPreview = true;
-            //this.KeyDown += changeCollectedSkulls;
+            CurrentLayout.LoadLayout(this, ListSometimesHintsSuggestions, ListPlacesWithTag);
         }
+
+        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
+        {
+            if (keyData == Keys.F2)
+            {
+                if (MenuBar.Visible) MenuBar.Hide();
+                else MenuBar.Show();
+            }
+            return base.ProcessCmdKey(ref msg, keyData);
+        }
+
+            private void Editor_Click(object sender, EventArgs e)
+        {
+            Layout editorLayout = new Layout();
+            editorLayout.LoadLayout(this, ListSometimesHintsSuggestions, ListPlacesWithTag);
+
+            var window = new Editor(editorLayout);
+            window.Show();
+        }
+
 
         private void changeCollectedSkulls(object sender, KeyEventArgs k)
         {

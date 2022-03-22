@@ -37,6 +37,8 @@ namespace TrackerOOT
             this.AllowDrop = false;
             this.MouseUp += this.Click_MouseUp;
             this.MouseDown += this.Click_MouseDown;
+            if(Form1.EnableMouseWheel_Medallions)
+                this.MouseWheel += this.Medallion_MouseWheel;
 
             SelectedDungeon = new Label
             {
@@ -47,7 +49,39 @@ namespace TrackerOOT
                 ForeColor = Color.White,
                 AutoSize = true
             };
-        }     
+        }
+
+        private void Medallion_MouseWheel(object sender, MouseEventArgs e)
+        {
+            if (e.Delta > 0)
+            {
+                if (Form1.MouseWheel_Medallions_IncreaseWithScrollUp) MedallionNextLabel(); else MedallionPreviousLabel();
+            }
+            else
+            {
+                if (Form1.MouseWheel_Medallions_IncreaseWithScrollUp) MedallionPreviousLabel(); else MedallionNextLabel();
+            }
+        }
+
+        private void MedallionNextLabel()
+        {
+            var index = ListDungeon.FindIndex(x => x == SelectedDungeon.Text);
+            if (index == (ListDungeon.Count - 1))
+                SelectedDungeon.Text = ListDungeon[0];
+            else
+                SelectedDungeon.Text = ListDungeon[index + 1];
+            SetSelectedDungeonLocation();
+        }
+
+        private void MedallionPreviousLabel()
+        {
+            var index = ListDungeon.FindIndex(x => x == SelectedDungeon.Text);
+            if (index == 0)
+                SelectedDungeon.Text = ListDungeon[ListDungeon.Count - 1];
+            else
+                SelectedDungeon.Text = ListDungeon[index - 1];
+            SetSelectedDungeonLocation();
+        }
 
         public void SetSelectedDungeonLocation()
         {
@@ -73,12 +107,7 @@ namespace TrackerOOT
 
             if (e.Button == MouseButtons.Right)
             {
-                var index = ListDungeon.FindIndex(x => x == SelectedDungeon.Text);
-                if (index == (ListDungeon.Count - 1))
-                    SelectedDungeon.Text = ListDungeon[0];
-                else
-                    SelectedDungeon.Text = ListDungeon[index + 1];
-                SetSelectedDungeonLocation();
+                MedallionNextLabel();
             }
         }
 

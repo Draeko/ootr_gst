@@ -2,10 +2,7 @@
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Windows.Forms.VisualStyles;
 
 namespace TrackerOOT
 {
@@ -14,7 +11,7 @@ namespace TrackerOOT
         public TextBox TextBoxField;
         public ListBox SuggestionContainer;
         Dictionary<string, string> ListSuggestion;
-        bool SuggestionContainerIsFocus = false;
+        public bool SuggestionContainerIsFocus = false;
 
         public TextBoxCustom(Dictionary<string, string> listSuggestion, Point location, Color color, Font font, string name, Size size, string text)
         {
@@ -49,7 +46,6 @@ namespace TrackerOOT
                 Sorted = true
             };
             SuggestionContainer.Items.AddRange(listSuggestion.Keys.ToArray());
-            SuggestionContainer.KeyUp += SuggestionContainer_KeyUp;
         }
 
         private void TextBoxField_LostFocus(object sender, EventArgs e)
@@ -95,17 +91,6 @@ namespace TrackerOOT
             }
         }
 
-        private void SuggestionContainer_KeyUp(object sender, KeyEventArgs e)
-        {
-            if(e.KeyCode == Keys.Enter)
-            {
-                TextBoxField.Text = SuggestionContainer.SelectedItem.ToString();
-                TextBoxField.Focus();
-                SuggestionContainer.Hide();
-                SuggestionContainerIsFocus = false;
-            }
-        }
-
         private void TextBoxCustom_KeyUp(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Down)
@@ -135,7 +120,11 @@ namespace TrackerOOT
                     if (!SuggestionContainer.Items.Contains(element))
                         SuggestionContainer.Items.Add(element);
                 }
-                if (TextBoxField.Text.Length > 0 && SuggestionContainer.Items.Count > 0) SuggestionContainer.Show();
+                if (TextBoxField.Text.Length > 0 && SuggestionContainer.Items.Count > 0)
+                {
+                    SuggestionContainer.Show();
+                    SuggestionContainer.BringToFront();
+                }
                 else SuggestionContainer.Hide();
             }
         }
@@ -147,6 +136,15 @@ namespace TrackerOOT
                 location.X + TextBoxField.Location.X,
                 location.Y + TextBoxField.Location.Y + TextBoxField.Height
             );
+
+            if (SuggestionContainer.Location.Y + SuggestionContainer.Height > Form1.CurrentLayout.App_Settings.Height)
+            {
+                SuggestionContainer.Location = new Point
+                (
+                    location.X + TextBoxField.Location.X,
+                    location.Y + TextBoxField.Location.Y - SuggestionContainer.Height
+                );
+            }
         }
 
         public void newLocation(Point newLocation, Point panelLocation)

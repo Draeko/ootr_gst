@@ -1,0 +1,17 @@
+{
+	"ActiveLayout": "test-v2",
+	"AutoCheckSongs": "true",
+	"MoveLocationToSong": "false",
+
+	"EnableMouseWheel_Items": "true",
+	"MouseWheel_Items_IncreaseWithScrollUp": "true",
+
+	"EnableMouseWheel_Medallions": "true",
+	"MouseWheel_Medallions_IncreaseWithScrollUp": "true",
+
+	"EnableMouseWheel_GossipStones": "true",
+	"MouseWheel_GossipStones_IncreaseWithScrollUp": "true",
+
+	"EnableMouseWheel_CollectedItems": "true",
+	"MouseWheel_CollectedItems_IncreaseWithScrollUp": "true"
+}

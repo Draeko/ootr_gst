@@ -9,34 +9,21 @@ namespace TrackerOOT
     {
         public List<string> ListImageName = new List<string>();
         public List<string> ListTinyImageName = new List<string>();
-        string ActiveImageName;
-        string ActiveTinyImageName;
 
         bool isMouseDown = false;
         public PictureBox TinyPictureBox;
-        bool SongMode;
-        bool AutoCheck;
 
-        Size SongSize;
-
-        public Song(ObjectPointSong data, bool songMode, bool autoCheck)
+        public Song(ObjectPointSong data)
         {
-            SongMode = songMode;
-            AutoCheck = autoCheck;
-
             if (data.ImageCollection != null)
             {
                 ListImageName = data.ImageCollection.ToList();
-                ActiveImageName = data.ActiveSongImage;
             }
 
             if (data.TinyImageCollection != null)
             {
                 ListTinyImageName = data.TinyImageCollection.ToList();
-                ActiveTinyImageName = data.ActiveTinySongImage;
             }
-
-            SongSize = data.Size;
 
             TinyPictureBox = new PictureBox
             {
@@ -44,6 +31,7 @@ namespace TrackerOOT
                 TabStop = false,
                 AllowDrop = false
             };
+
             TinyPictureBox.MouseUp += TinyPictureBox_MouseUp;
             TinyPictureBox.DragEnter += Click_DragEnter;
             TinyPictureBox.DragDrop += Click_DragDrop;
@@ -76,10 +64,10 @@ namespace TrackerOOT
                 this.Name = ListImageName[0];
                 this.Image = Image.FromFile(@"Resources/" + this.Name);
                 this.SizeMode = PictureBoxSizeMode.StretchImage;
-                this.Size = new Size(SongSize.Width, SongSize.Height + (int)(TinyPictureBox.Height*5/6));
+                this.Size = new Size(this.Image.Width, this.Image.Height);
                 TinyPictureBox.Location = new Point(
-                    (SongSize.Width - TinyPictureBox.Width) / 2,
-                    SongSize.Height - TinyPictureBox.Height / 6
+                    (this.Size.Width - TinyPictureBox.Width) / 2,
+                    this.Size.Height - TinyPictureBox.Height
                 );
 
                 if (data.DragAndDropImageName != string.Empty)
@@ -115,9 +103,9 @@ namespace TrackerOOT
             TinyPictureBox.Image = tinyImage;
             TinyPictureBox.Name = imageName;
 
-            if (SongMode)
+            if (Form1.SongMode)
             {
-                if (AutoCheck)
+                if (Form1.AutoCheck)
                 {
                     this.Image = Image.FromFile(@"Resources/" + ListImageName[1]);
                     this.Name = imageName;
@@ -125,15 +113,25 @@ namespace TrackerOOT
             }
             else
             {
-                if (AutoCheck)
+                if (Form1.AutoCheck)
                 {
                     var splitName = imageName.Split('_');
-                    var newName = splitName[0] + "-bw_" + splitName[1];
-                    var findOrigin = this.Parent.Controls.Find(newName, false);
-                    if (findOrigin.Length > 0)
+
+                    foreach(var c in this.Parent.Controls)
                     {
-                        var origin = (Song)findOrigin[0];
-                        origin.Click_MouseUp(this, new MouseEventArgs(MouseButtons.Left, 1, 0, 0, 0));
+                        if(c.GetType() == typeof(Song))
+                        {
+                            var SongName = ((Song)c).Name;
+                            if(SongName.Contains(splitName[0]))
+                            {
+                                var findOrigin = this.Parent.Controls.Find(SongName, false);
+                                if (findOrigin.Length > 0)
+                                {
+                                    var origin = (Song)findOrigin[0];
+                                    origin.Click_MouseUp(this, new MouseEventArgs(MouseButtons.Left, 1, 0, 0, 0));
+                                }
+                            }
+                        }
                     }
                 }
             }

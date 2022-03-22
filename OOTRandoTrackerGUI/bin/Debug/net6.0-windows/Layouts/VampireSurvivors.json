@@ -1,0 +1,1227 @@
+{
+	"AppSize": {
+		"Width": "430",
+		"Height": "740",
+		"BackgroundColor": "0, 0, 0"
+	},
+	"Items": [
+		{
+			"BoxName": "Whip",
+			"X": "5",
+			"Y": "107",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"AllowDrop": "true",
+			"ImageCollection": [
+				"VampireSurvivors/whip.png",
+				"VampireSurvivors/whip.png"
+			],
+			"Hashtag": {
+				"Ignores": [
+					"speed",
+					"duration"
+				]
+			}
+		},
+		{
+			"BoxName": "Bloody Tear",
+			"X": "56",
+			"Y": "107",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"AllowDrop": "true",
+			"ImageCollection": [
+				"VampireSurvivors/bloody-tear.png",
+				"VampireSurvivors/bloody-tear.png"
+			]
+		},
+		{
+			"BoxName": "Magic Wand",
+			"X": "107",
+			"Y": "107",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"AllowDrop": "true",
+			"ImageCollection": [
+				"VampireSurvivors/magic-wand.png",
+				"VampireSurvivors/magic-wand.png"
+			]
+		},
+		{
+			"BoxName": "Holy Wand",
+			"X": "158",
+			"Y": "107",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/holy-wand.png",
+				"VampireSurvivors/holy-wand.png"
+			]
+		},
+		{
+			"BoxName": "Knife",
+			"X": "209",
+			"Y": "107",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/knife.png",
+				"VampireSurvivors/knife.png"
+			]
+		},
+		{
+			"BoxName": "Thousand Edge",
+			"X": "260",
+			"Y": "107",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/thousand-edge.png",
+				"VampireSurvivors/thousand-edge.png"
+			]
+		},
+		{
+			"BoxName": "Axe",
+			"X": "311",
+			"Y": "107",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/axe.png",
+				"VampireSurvivors/axe.png"
+			]
+		},
+		{
+			"BoxName": "Death Spiral",
+			"X": "362",
+			"Y": "107",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/death-spiral.png",
+				"VampireSurvivors/death-spiral.png"
+			]
+		},
+		{
+			"BoxName": "Cross",
+			"X": "5",
+			"Y": "158",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/cross.png",
+				"VampireSurvivors/cross.png"
+			]
+		},
+		{
+			"BoxName": "Heaven Sword",
+			"X": "56",
+			"Y": "158",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/heaven-sword.png",
+				"VampireSurvivors/heaven-sword.png"
+			]
+		},
+		{
+			"BoxName": "King Bible",
+			"X": "107",
+			"Y": "158",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/king-bible.png",
+				"VampireSurvivors/king-bible.png"
+			]
+		},
+		{
+			"BoxName": "Unholy Vespers",
+			"X": "158",
+			"Y": "158",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/unholy-vespers.png",
+				"VampireSurvivors/unholy-vespers.png"
+			]
+		},
+		{
+			"BoxName": "Fire Wand",
+			"X": "209",
+			"Y": "158",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/fire-wand.png",
+				"VampireSurvivors/fire-wand.png"
+			]
+		},
+		{
+			"BoxName": "Hellfire",
+			"X": "260",
+			"Y": "158",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/hellfire.png",
+				"VampireSurvivors/hellfire.png"
+			]
+		},
+		{
+			"BoxName": "Garlic",
+			"X": "311",
+			"Y": "158",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/garlic.png",
+				"VampireSurvivors/garlic.png"
+			]
+		},
+		{
+			"BoxName": "Soul Eater",
+			"X": "362",
+			"Y": "158",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/soul-eater.png",
+				"VampireSurvivors/soul-eater.png"
+			]
+		},
+		{
+			"BoxName": "Peachone",
+			"X": "5",
+			"Y": "209",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/peachone.png",
+				"VampireSurvivors/peachone.png"
+			]
+		},
+		{
+			"BoxName": "Ebony Wings",
+			"X": "56",
+			"Y": "209",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/ebony-wings.png",
+				"VampireSurvivors/ebony-wings.png"
+			]
+		},
+		{
+			"BoxName": "Vandalier",
+			"X": "107",
+			"Y": "209",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/vandalier.png",
+				"VampireSurvivors/vandalier.png"
+			]
+		},
+		{
+			"BoxName": "Santa Water",
+			"X": "158",
+			"Y": "209",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/santa-water.png",
+				"VampireSurvivors/santa-water.png"
+			]
+		},
+		{
+			"BoxName": "Runetracer",
+			"X": "209",
+			"Y": "209",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/runetracer.png",
+				"VampireSurvivors/runetracer.png"
+			]
+		},
+		{
+			"BoxName": "Lightning Ring",
+			"X": "260",
+			"Y": "209",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/lightning-ring.png",
+				"VampireSurvivors/lightning-ring.png"
+			]
+		},
+		{
+			"BoxName": "Pentagram",
+			"X": "311",
+			"Y": "209",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/pentagram.png",
+				"VampireSurvivors/pentagram.png"
+			]
+		},
+		{
+			"BoxName": "Clock Lancet",
+			"X": "362",
+			"Y": "209",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/clock-lancet.png",
+				"VampireSurvivors/clock-lancet.png"
+			]
+		},
+		{
+			"BoxName": "Laurel",
+			"X": "5",
+			"Y": "260",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/laurel.png",
+				"VampireSurvivors/laurel.png"
+			]
+		},
+		{
+			"BoxName": "Bone",
+			"X": "56",
+			"Y": "260",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/bone.png",
+				"VampireSurvivors/bone.png"
+			]
+		},
+		{
+			"BoxName": "Spinach",
+			"X": "107",
+			"Y": "260",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/spinach.png",
+				"VampireSurvivors/spinach.png"
+			]
+		},
+		{
+			"BoxName": "Armor",
+			"X": "158",
+			"Y": "260",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/armor.png",
+				"VampireSurvivors/armor.png"
+			]
+		},
+		{
+			"BoxName": "Hollow Heart",
+			"X": "209",
+			"Y": "260",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/hollow-heart.png",
+				"VampireSurvivors/hollow-heart.png"
+			]
+		},
+		{
+			"BoxName": "Pummarola",
+			"X": "260",
+			"Y": "260",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/pummarola.png",
+				"VampireSurvivors/pummarola.png"
+			]
+		},
+		{
+			"BoxName": "Empty Tome",
+			"X": "311",
+			"Y": "260",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/empty-tome.png",
+				"VampireSurvivors/empty-tome.png"
+			]
+		},
+		{
+			"BoxName": "Candelabrador",
+			"X": "362",
+			"Y": "260",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/candelabrador.png",
+				"VampireSurvivors/candelabrador.png"
+			]
+		},
+
+		{
+			"BoxName": "Bracers",
+			"X": "5",
+			"Y": "311",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/bracers.png",
+				"VampireSurvivors/bracers.png"
+			]
+		},
+		{
+			"BoxName": "Spellbinder",
+			"X": "56",
+			"Y": "311",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/spellbinder.png",
+				"VampireSurvivors/spellbinder.png"
+			]
+		},
+		{
+			"BoxName": "Duplicator",
+			"X": "107",
+			"Y": "311",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/duplicator.png",
+				"VampireSurvivors/duplicator.png"
+			]
+		},
+		{
+			"BoxName": "Wings",
+			"X": "158",
+			"Y": "311",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/wings.png",
+				"VampireSurvivors/wings.png"
+			]
+		},
+		{
+			"BoxName": "Attractorb",
+			"X": "209",
+			"Y": "311",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/attractorb.png",
+				"VampireSurvivors/attractorb.png"
+			]
+		},
+		{
+			"BoxName": "Clover",
+			"X": "260",
+			"Y": "311",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/clover.png",
+				"VampireSurvivors/clover.png"
+			]
+		},
+		{
+			"BoxName": "Crown",
+			"X": "311",
+			"Y": "311",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/crown.png",
+				"VampireSurvivors/crown.png"
+			]
+		},
+		{
+			"BoxName": "Stone Mask",
+			"X": "362",
+			"Y": "311",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/stone-mask.png",
+				"VampireSurvivors/stone-mask.png"
+			]
+		},
+		{
+			"BoxName": "Antonio",
+			"X": "5",
+			"Y": "413",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/antonio.png",
+				"VampireSurvivors/antonio.png"
+			]
+		},
+		{
+			"BoxName": "Imelda",
+			"X": "56",
+			"Y": "413",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/imelda.png",
+				"VampireSurvivors/imelda.png"
+			]
+		},
+		{
+			"BoxName": "Pasqualina",
+			"X": "107",
+			"Y": "413",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/pasqualina.png",
+				"VampireSurvivors/pasqualina.png"
+			]
+		},
+		{
+			"BoxName": "Gennaro",
+			"X": "158",
+			"Y": "413",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/gennaro.png",
+				"VampireSurvivors/gennaro.png"
+			]
+		},
+		{
+			"BoxName": "Arca",
+			"X": "5",
+			"Y": "464",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/arca.png",
+				"VampireSurvivors/arca.png"
+			]
+		},
+		{
+			"BoxName": "Porta",
+			"X": "56",
+			"Y": "464",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/porta.png",
+				"VampireSurvivors/porta.png"
+			]
+		},
+		{
+			"BoxName": "Poe",
+			"X": "107",
+			"Y": "464",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/poe.png",
+				"VampireSurvivors/poe.png"
+			]
+		},
+		{
+			"BoxName": "Mortaccio",
+			"X": "158",
+			"Y": "464",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/mortaccio.png",
+				"VampireSurvivors/mortaccio.png"
+			]
+		},
+		{
+			"BoxName": "Exdash",
+			"X": "209",
+			"Y": "436",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"ImageCollection": [
+				"VampireSurvivors/exdash.png",
+				"VampireSurvivors/exdash.png"
+			]
+		}
+	],
+	"EmptyBoxes": [
+		{
+			"BoxName": "perso1",
+			"X": "5",
+			"Y": "355",
+			"BoxSize": "32, 32",
+			"Visible": "true",
+			"AllowDrop": "true",
+			"ImageCollection": [
+				"gossip-stone-bw_32x32.png"
+			]
+		},
+		{
+			"BoxName": "perso1_actif1",
+			"X": "5",
+			"Y": "390",
+			"BoxSize": "32, 32",
+			"Visible": "true",
+			"AllowDrop": "true",
+			"ImageCollection": [
+				"gossip-stone-bw_32x32.png"
+			]
+		},
+		{
+			"BoxName": "perso1_actif2",
+			"X": "56",
+			"Y": "390",
+			"BoxSize": "32, 32",
+			"Visible": "true",
+			"AllowDrop": "true",
+			"ImageCollection": [
+				"gossip-stone-bw_32x32.png"
+			]
+		},
+		{
+			"BoxName": "perso1_actif3",
+			"X": "107",
+			"Y": "390",
+			"BoxSize": "32, 32",
+			"Visible": "true",
+			"AllowDrop": "true",
+			"ImageCollection": [
+				"gossip-stone-bw_32x32.png"
+			]
+		},
+		{
+			"BoxName": "perso1_actif4",
+			"X": "158",
+			"Y": "390",
+			"BoxSize": "32, 32",
+			"Visible": "true",
+			"AllowDrop": "true",
+			"ImageCollection": [
+				"gossip-stone-bw_32x32.png"
+			]
+		},
+		{
+			"BoxName": "perso1_actif5",
+			"X": "209",
+			"Y": "390",
+			"BoxSize": "32, 32",
+			"Visible": "true",
+			"AllowDrop": "true",
+			"ImageCollection": [
+				"gossip-stone-bw_32x32.png"
+			]
+		},
+		{
+			"BoxName": "perso1_actif6",
+			"X": "260",
+			"Y": "390",
+			"BoxSize": "32, 32",
+			"Visible": "true",
+			"AllowDrop": "true",
+			"ImageCollection": [
+				"gossip-stone-bw_32x32.png"
+			]
+		},
+		{
+			"BoxName": "perso1_passif1",
+			"X": "5",
+			"Y": "425",
+			"BoxSize": "32, 32",
+			"Visible": "true",
+			"AllowDrop": "true",
+			"ImageCollection": [
+				"gossip-stone-bw_32x32.png"
+			]
+		},
+		{
+			"BoxName": "perso1_passif2",
+			"X": "56",
+			"Y": "425",
+			"BoxSize": "32, 32",
+			"Visible": "true",
+			"AllowDrop": "true",
+			"ImageCollection": [
+				"gossip-stone-bw_32x32.png"
+			]
+		},
+		{
+			"BoxName": "perso1_passif3",
+			"X": "107",
+			"Y": "425",
+			"BoxSize": "32, 32",
+			"Visible": "true",
+			"AllowDrop": "true",
+			"ImageCollection": [
+				"gossip-stone-bw_32x32.png"
+			]
+		},
+		{
+			"BoxName": "perso1_passif4",
+			"X": "158",
+			"Y": "425",
+			"BoxSize": "32, 32",
+			"Visible": "true",
+			"AllowDrop": "true",
+			"ImageCollection": [
+				"gossip-stone-bw_32x32.png"
+			]
+		},
+		{
+			"BoxName": "perso1_passif5",
+			"X": "209",
+			"Y": "425",
+			"BoxSize": "32, 32",
+			"Visible": "true",
+			"AllowDrop": "true",
+			"ImageCollection": [
+				"gossip-stone-bw_32x32.png"
+			]
+		},
+		{
+			"BoxName": "perso1_passif6",
+			"X": "260",
+			"Y": "425",
+			"BoxSize": "32, 32",
+			"Visible": "true",
+			"AllowDrop": "true",
+			"ImageCollection": [
+				"gossip-stone-bw_32x32.png"
+			]
+		},
+		{
+			"BoxName": "perso1_passif7",
+			"X": "311",
+			"Y": "425",
+			"BoxSize": "32, 32",
+			"Visible": "true",
+			"AllowDrop": "true",
+			"ImageCollection": [
+				"gossip-stone-bw_32x32.png"
+			]
+		},
+		{
+			"BoxName": "perso1_passif8",
+			"X": "362",
+			"Y": "425",
+			"BoxSize": "32, 32",
+			"Visible": "true",
+			"AllowDrop": "true",
+			"ImageCollection": [
+				"gossip-stone-bw_32x32.png"
+			]
+		},
+		{
+			"BoxName": "perso2",
+			"X": "5",
+			"Y": "495",
+			"BoxSize": "32, 32",
+			"Visible": "true",
+			"AllowDrop": "true",
+			"ImageCollection": [
+				"gossip-stone-bw_32x32.png"
+			]
+		},
+		{
+			"BoxName": "perso2_actif1",
+			"X": "5",
+			"Y": "530",
+			"BoxSize": "32, 32",
+			"Visible": "true",
+			"AllowDrop": "true",
+			"ImageCollection": [
+				"gossip-stone-bw_32x32.png"
+			]
+		},
+		{
+			"BoxName": "perso2_actif2",
+			"X": "56",
+			"Y": "530",
+			"BoxSize": "32, 32",
+			"Visible": "true",
+			"AllowDrop": "true",
+			"ImageCollection": [
+				"gossip-stone-bw_32x32.png"
+			]
+		},
+		{
+			"BoxName": "perso2_actif3",
+			"X": "107",
+			"Y": "530",
+			"BoxSize": "32, 32",
+			"Visible": "true",
+			"AllowDrop": "true",
+			"ImageCollection": [
+				"gossip-stone-bw_32x32.png"
+			]
+		},
+		{
+			"BoxName": "perso2_actif4",
+			"X": "158",
+			"Y": "530",
+			"BoxSize": "32, 32",
+			"Visible": "true",
+			"AllowDrop": "true",
+			"ImageCollection": [
+				"gossip-stone-bw_32x32.png"
+			]
+		},
+		{
+			"BoxName": "perso2_actif5",
+			"X": "209",
+			"Y": "530",
+			"BoxSize": "32, 32",
+			"Visible": "true",
+			"AllowDrop": "true",
+			"ImageCollection": [
+				"gossip-stone-bw_32x32.png"
+			]
+		},
+		{
+			"BoxName": "perso2_actif6",
+			"X": "260",
+			"Y": "530",
+			"BoxSize": "32, 32",
+			"Visible": "true",
+			"AllowDrop": "true",
+			"ImageCollection": [
+				"gossip-stone-bw_32x32.png"
+			]
+		},
+		{
+			"BoxName": "perso2_passif1",
+			"X": "5",
+			"Y": "565",
+			"BoxSize": "32, 32",
+			"Visible": "true",
+			"AllowDrop": "true",
+			"ImageCollection": [
+				"gossip-stone-bw_32x32.png"
+			]
+		},
+		{
+			"BoxName": "perso2_passif2",
+			"X": "56",
+			"Y": "565",
+			"BoxSize": "32, 32",
+			"Visible": "true",
+			"AllowDrop": "true",
+			"ImageCollection": [
+				"gossip-stone-bw_32x32.png"
+			]
+		},
+		{
+			"BoxName": "perso2_passif3",
+			"X": "107",
+			"Y": "565",
+			"BoxSize": "32, 32",
+			"Visible": "true",
+			"AllowDrop": "true",
+			"ImageCollection": [
+				"gossip-stone-bw_32x32.png"
+			]
+		},
+		{
+			"BoxName": "perso2_passif4",
+			"X": "158",
+			"Y": "565",
+			"BoxSize": "32, 32",
+			"Visible": "true",
+			"AllowDrop": "true",
+			"ImageCollection": [
+				"gossip-stone-bw_32x32.png"
+			]
+		},
+		{
+			"BoxName": "perso2_passif5",
+			"X": "209",
+			"Y": "565",
+			"BoxSize": "32, 32",
+			"Visible": "true",
+			"AllowDrop": "true",
+			"ImageCollection": [
+				"gossip-stone-bw_32x32.png"
+			]
+		},
+		{
+			"BoxName": "perso2_passif6",
+			"X": "260",
+			"Y": "565",
+			"BoxSize": "32, 32",
+			"Visible": "true",
+			"AllowDrop": "true",
+			"ImageCollection": [
+				"gossip-stone-bw_32x32.png"
+			]
+		},
+		{
+			"BoxName": "perso2_passif7",
+			"X": "311",
+			"Y": "565",
+			"BoxSize": "32, 32",
+			"Visible": "true",
+			"AllowDrop": "true",
+			"ImageCollection": [
+				"gossip-stone-bw_32x32.png"
+			]
+		},
+		{
+			"BoxName": "perso2_passif8",
+			"X": "362",
+			"Y": "565",
+			"BoxSize": "32, 32",
+			"Visible": "true",
+			"AllowDrop": "true",
+			"ImageCollection": [
+				"gossip-stone-bw_32x32.png"
+			]
+		}
+	],
+	"ItemsWithTinyBoxes": [
+		{
+			"BoxName": "ZeldaLullaby",
+			"X": "420",
+			"Y": "330",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"AllowDrop": "true",
+			"DragAndDropImagePath": "songs/zeldas-lullaby_32x32.png",
+			"ImageCollection": [
+				"songs/zeldalullaby-bw.png",
+				"songs/zeldalullaby.png",
+			],
+			"IndexActiveImage": 0,
+			"ItemCollection": [
+				{
+					"X": "0",
+					"Y": "28",
+					"BoxSize": "20, 20",
+					"ImageCollection": [
+						"no-song_16x16.png",
+						"check-song_16x16.png"
+					],
+					"IndexActiveImage": 0
+				}
+			]
+		},
+		{
+			"BoxName": "Epona",
+
+			"X": "470",
+			"Y": "330",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"AllowDrop": "true",
+			"DragAndDropImagePath": "songs/epona_32x32.png",
+			"ImageCollection": [
+				"songs/epona-bw_32x40.png",
+				"songs/epona_32x40.png",
+			],
+			"ItemCollection": [
+				{
+					"X": "0",
+					"Y": "28",
+					"BoxSize": "20, 20",
+					"ImageCollection": [
+						"no-song_16x16.png",
+						"check-song_16x16.png"
+					],
+					"IndexActiveImage": 0
+				}
+			]
+		},
+		{
+			"BoxName": "Saria",
+
+			"X": "520",
+			"Y": "330",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"AllowDrop": "true",
+			"DragAndDropImagePath": "songs/saria_32x32.png",
+			"ImageCollection": [
+				"songs/saria-bw.png",
+				"songs/saria.png",
+			],
+			"IndexActiveImage": 0,
+			"ItemCollection": [
+				{
+					"X": "0",
+					"Y": "28",
+					"BoxSize": "20, 20",
+					"ImageCollection": [
+						"no-song_16x16.png",
+						"check-song_16x16.png"
+					],
+					"IndexActiveImage": 0
+				}
+			]
+		},
+		{
+			"BoxName": "SunsSong",
+
+			"X": "570",
+			"Y": "330",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"AllowDrop": "true",
+			"DragAndDropImagePath": "songs/sunssong_32x32.png",
+			"ImageCollection": [
+				"songs/sunssong-bw_32x40.png",
+				"songs/sunssong_32x40.png",
+			],
+			"ItemCollection": [
+				{
+					"X": "0",
+					"Y": "28",
+					"BoxSize": "20, 20",
+					"ImageCollection": [
+						"no-song_16x16.png",
+						"check-song_16x16.png"
+					],
+					"IndexActiveImage": 0
+				}
+			]
+		},
+		{
+			"BoxName": "Whip",
+			"X": "5",
+			"Y": "5",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"DragAndDropImagePath": "",
+			"ImageCollection": [
+				"VampireSurvivors/whip.png"
+			],
+			"IndexActiveImage": 0,
+
+			"ItemCollection": [
+				{
+					"X": "0",
+					"Y": "28",
+					"BoxSize": "20, 20",
+					"ImageCollection": [
+						"VampireSurvivors/hollow-heart.png"
+					],
+					"IndexActiveImage": 0
+				}
+			]
+		},
+		{
+			"BoxName": "MagicWand",
+			"X": "56",
+			"Y": "5",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"DragAndDropImagePath": "",
+			"ImageCollection": [
+				"VampireSurvivors/magic-wand.png"
+			],
+			"IndexActiveImage": 0,
+
+			"TinyX": "0",
+			"TinyY": "28",
+			"TinySize": "20, 20",
+			"TinyImageCollection": [
+				"VampireSurvivors/empty-tome.png"
+			],
+			"IndexActiveTinyImage": 0
+		},
+		{
+			"BoxName": "Knife",
+			"X": "107",
+			"Y": "5",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"DragAndDropImagePath": "",
+			"ImageCollection": [
+				"VampireSurvivors/knife.png"
+			],
+			"IndexActiveImage": 0,
+
+			"TinyX": "0",
+			"TinyY": "28",
+			"TinySize": "20, 20",
+			"TinyImageCollection": [
+				"VampireSurvivors/bracers.png"
+			],
+			"IndexActiveTinyImage": 0
+		},
+		{
+			"BoxName": "Axe",
+			"X": "158",
+			"Y": "5",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"DragAndDropImagePath": "",
+			"ImageCollection": [
+				"VampireSurvivors/axe.png"
+			],
+			"IndexActiveImage": 0,
+
+			"TinyX": "0",
+			"TinyY": "28",
+			"TinySize": "20, 20",
+			"TinyImageCollection": [
+				"VampireSurvivors/candelabrador.png"
+			],
+			"IndexActiveTinyImage": 0
+		},
+		{
+			"BoxName": "Cross",
+			"X": "209",
+			"Y": "5",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"DragAndDropImagePath": "",
+			"ImageCollection": [
+				"VampireSurvivors/cross.png"
+			],
+			"IndexActiveImage": 0,
+
+			"TinyX": "0",
+			"TinyY": "28",
+			"TinySize": "20, 20",
+			"TinyImageCollection": [
+				"VampireSurvivors/clover.png"
+			],
+			"IndexActiveTinyImage": 0
+		},
+		{
+			"BoxName": "King Bible",
+			"X": "260",
+			"Y": "5",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"DragAndDropImagePath": "",
+			"ImageCollection": [
+				"VampireSurvivors/king-bible.png"
+			],
+			"IndexActiveImage": 0,
+
+			"TinyX": "0",
+			"TinyY": "28",
+			"TinySize": "20, 20",
+			"TinyImageCollection": [
+				"VampireSurvivors/spellbinder.png"
+			],
+			"IndexActiveTinyImage": 0
+		},
+		{
+			"BoxName": "Fire Wand",
+			"X": "311",
+			"Y": "5",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"DragAndDropImagePath": "",
+			"ImageCollection": [
+				"VampireSurvivors/fire-wand.png"
+			],
+			"IndexActiveImage": 0,
+
+			"TinyX": "0",
+			"TinyY": "28",
+			"TinySize": "20, 20",
+			"TinyImageCollection": [
+				"VampireSurvivors/spinach.png"
+			],
+			"IndexActiveTinyImage": 0
+		},
+		{
+			"BoxName": "Garlic",
+			"X": "362",
+			"Y": "5",
+			"BoxSize": "48, 48",
+			"Visible": "true",
+			"DragAndDropImagePath": "",
+			"ImageCollection": [
+				"VampireSurvivors/garlic.png"
+			],
+			"IndexActiveImage": 0,
+
+			"TinyX": "0",
+			"TinyY": "28",
+			"TinySize": "20, 20",
+			"TinyImageCollection": [
+				"VampireSurvivors/pummarola.png"
+			],
+			"IndexActiveTinyImage": 0
+		}
+	],
+	"ItemsWithLabel": [
+		{
+			"BoxName": "GreenMedallion",
+			"X": "500",
+			"Y": "500",
+			"BoxSize": "32, 32",
+			"Visible": "true",
+			"ImageCollection": [
+				"medallions/green-medallion-bw_32x32.png",
+				"medallions/green-medallion_32x32.png"
+			],
+			"interactiveBoxLabel": {
+				"TextCollection": [
+					"DEKU",
+					"DC",
+					"JABU",
+					"FOREST",
+					"FIRE",
+					"WATER",
+					"SHADOW",
+					"SPIRIT",
+					"FREE"
+				],
+				"fontName": "Consolas",
+				"fontSize": "8",
+				"fontStyle": "Bold",
+
+				"TextAlign": "MiddleCenter",
+				"BackColor": "Transparent",
+				"ForeColor": "White",
+				"AutoSize": "true"
+			}
+		},
+		{
+			"BoxName": "RedMedallion",
+			"X": "560",
+			"Y": "500",
+			"BoxSize": "32, 32",
+			"Visible": "true",
+			"ImageCollection": [
+				"medallions/red-medallion-bw_32x32.png",
+				"medallions/red-medallion_32x32.png"
+			],
+			"interactiveBoxLabel": {
+				"TextCollection": [
+					"DEKU",
+					"DC",
+					"JABU",
+					"FOREST",
+					"FIRE",
+					"WATER",
+					"SHADOW",
+					"SPIRIT",
+					"FREE"
+				],
+				"fontName": "Consolas",
+				"fontSize": "8",
+				"fontStyle": "Bold",
+
+				"TextAlign": "MiddleCenter",
+				"BackColor": "Transparent",
+				"ForeColor": "White",
+				"AutoSize": "true"
+			}
+		}
+	]
+}

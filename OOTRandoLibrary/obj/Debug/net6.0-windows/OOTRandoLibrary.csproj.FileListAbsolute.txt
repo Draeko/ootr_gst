@@ -1,0 +1,15 @@
+C:\Users\Drekorig\Documents\ootr_gst\OOTRandoLibrary\bin\Debug\net6.0-windows\OOTRandoLibrary.deps.json
+C:\Users\Drekorig\Documents\ootr_gst\OOTRandoLibrary\bin\Debug\net6.0-windows\OOTRandoLibrary.dll
+C:\Users\Drekorig\Documents\ootr_gst\OOTRandoLibrary\bin\Debug\net6.0-windows\ref\OOTRandoLibrary.dll
+C:\Users\Drekorig\Documents\ootr_gst\OOTRandoLibrary\bin\Debug\net6.0-windows\OOTRandoLibrary.pdb
+C:\Users\Drekorig\Documents\ootr_gst\OOTRandoLibrary\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\Drekorig\Documents\ootr_gst\OOTRandoLibrary\bin\Debug\net6.0-windows\Newtonsoft.Json.xml
+C:\Users\Drekorig\Documents\ootr_gst\OOTRandoLibrary\obj\Debug\net6.0-windows\OOTRandoLibrary.csproj.AssemblyReference.cache
+C:\Users\Drekorig\Documents\ootr_gst\OOTRandoLibrary\obj\Debug\net6.0-windows\OOTRandoLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Drekorig\Documents\ootr_gst\OOTRandoLibrary\obj\Debug\net6.0-windows\OOTRandoLibrary.AssemblyInfoInputs.cache
+C:\Users\Drekorig\Documents\ootr_gst\OOTRandoLibrary\obj\Debug\net6.0-windows\OOTRandoLibrary.AssemblyInfo.cs
+C:\Users\Drekorig\Documents\ootr_gst\OOTRandoLibrary\obj\Debug\net6.0-windows\OOTRandoLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Drekorig\Documents\ootr_gst\OOTRandoLibrary\obj\Debug\net6.0-windows\OOTRandoLibrary.csproj.CopyComplete
+C:\Users\Drekorig\Documents\ootr_gst\OOTRandoLibrary\obj\Debug\net6.0-windows\OOTRandoLibrary.dll
+C:\Users\Drekorig\Documents\ootr_gst\OOTRandoLibrary\obj\Debug\net6.0-windows\ref\OOTRandoLibrary.dll
+C:\Users\Drekorig\Documents\ootr_gst\OOTRandoLibrary\obj\Debug\net6.0-windows\OOTRandoLibrary.pdb

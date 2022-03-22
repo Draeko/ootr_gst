@@ -1,9 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29905.134
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackerOOT", "TrackerOOT\TrackerOOT.csproj", "{20F88CAF-011B-40C2-85AC-D21255C0876B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOTRandoLibrary", "OOTRandoLibrary\OOTRandoLibrary.csproj", "{6DF8DBD6-77C5-4F53-99AC-E6EF289DF9B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOTRandoTrackerGUI", "OOTRandoTrackerGUI\OOTRandoTrackerGUI.csproj", "{D971CB7B-C140-4ECE-BCC1-750279BE8022}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrackerEditor", "TrackerEditor\TrackerEditor.csproj", "{1E0181F1-FC4C-446A-BAF0-646BFBD847CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackerEditorLibrary", "TrackerEditorLibrary\TrackerEditorLibrary.csproj", "{14163097-6BB6-413E-9331-57C675B94301}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{20F88CAF-011B-40C2-85AC-D21255C0876B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20F88CAF-011B-40C2-85AC-D21255C0876B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20F88CAF-011B-40C2-85AC-D21255C0876B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DF8DBD6-77C5-4F53-99AC-E6EF289DF9B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DF8DBD6-77C5-4F53-99AC-E6EF289DF9B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DF8DBD6-77C5-4F53-99AC-E6EF289DF9B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DF8DBD6-77C5-4F53-99AC-E6EF289DF9B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D971CB7B-C140-4ECE-BCC1-750279BE8022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D971CB7B-C140-4ECE-BCC1-750279BE8022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D971CB7B-C140-4ECE-BCC1-750279BE8022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D971CB7B-C140-4ECE-BCC1-750279BE8022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E0181F1-FC4C-446A-BAF0-646BFBD847CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E0181F1-FC4C-446A-BAF0-646BFBD847CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E0181F1-FC4C-446A-BAF0-646BFBD847CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E0181F1-FC4C-446A-BAF0-646BFBD847CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14163097-6BB6-413E-9331-57C675B94301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14163097-6BB6-413E-9331-57C675B94301}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14163097-6BB6-413E-9331-57C675B94301}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14163097-6BB6-413E-9331-57C675B94301}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

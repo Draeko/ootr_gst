@@ -7,7 +7,7 @@
     <ProjectGuid>{20F88CAF-011B-40C2-85AC-D21255C0876B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>TrackerOOT</RootNamespace>
-    <AssemblyName>Items&amp;HintsTracker_v1.8.3</AssemblyName>
+    <AssemblyName>Items&amp;HintsTracker_v1.8.4</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -82,6 +82,39 @@
     <Compile Include="Editor.Designer.cs">
       <DependentUpon>Editor.cs</DependentUpon>
     </Compile>
+    <Compile Include="EditorObjects\JSONGossipStone.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EditorObjects\JSONGuranteedHints.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EditorObjects\JSONCollectedItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EditorObjects\JSONChronometer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EditorObjects\JSONGoMode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EditorObjects\JSONPanelBarren.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EditorObjects\JSONPanelWoth.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EditorObjects\JSONPictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EditorObjects\JSONSometimesHint.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EditorObjects\JSONSong.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EditorObjects\JSONMedallion.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="EditorObjects\JSONItem.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -102,6 +135,12 @@
     </Compile>
     <Compile Include="GuaranteedHint.cs">
       <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ImageCollectionBrowser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImageCollectionBrowser.Designer.cs">
+      <DependentUpon>ImageCollectionBrowser.cs</DependentUpon>
     </Compile>
     <Compile Include="Item.cs">
       <SubType>Component</SubType>
@@ -165,6 +204,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImageCollectionBrowser.resx">
+      <DependentUpon>ImageCollectionBrowser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>

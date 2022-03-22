@@ -45,7 +45,7 @@ namespace TrackerOOT
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Gossip Stones Tracker v1.7 (Standard Edition)";
+            this.Text = "1.8.4";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(Form1_KeyDown);
             this.ResumeLayout(false);

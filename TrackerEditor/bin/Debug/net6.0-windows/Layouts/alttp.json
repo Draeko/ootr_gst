@@ -1,0 +1,131 @@
+{	
+	"AppSize" : {
+		"Width": "280",
+		"Height": "180",
+		"BackgroundColor": "30, 30, 30"
+	},
+	"Items" : [
+		{
+			"Name": "bow",
+			"X" : "5",
+			"Y" : "5",
+			"Size" : "32, 32",
+			"Visible" : "true",
+			"ImageCollection" : [
+				"alttp/bow-bw_32x32.png",
+				"alttp/bow_32x32.png"
+			]
+		},
+		{
+			"Name" : "bommerang",
+			"X" : "40",
+			"Y" : "5",
+			"Size" : "32, 32",
+			"Visible" : "true",
+			"ImageCollection" : [
+				"alttp/boomerang-bw_32x32.png",
+				"alttp/boomerang_32x32.png"
+			]
+		},
+		{
+			"Name" : "hookshot",
+			"X" : "75",
+			"Y" : "5",
+			"Size" : "32, 32",
+			"Visible" : "true",
+			"ImageCollection" : [
+				"alttp/hookshot-bw_32x32.png",
+				"alttp/hookshot_32x32.png"
+			]
+		},
+		{
+			"Name" : "bombs",
+			"X" : "110",
+			"Y" : "5",
+			"Size" : "32, 32",
+			"Visible" : "true",
+			"ImageCollection" : [
+				"alttp/bombs-bw_32x32.png",
+				"alttp/bombs_32x32.png"
+			]
+		},
+		{
+			"Name" : "powder",
+			"X" : "145",
+			"Y" : "5",
+			"Size" : "32, 32",
+			"Visible" : "true",
+			"ImageCollection" : [
+				"alttp/powder-bw_32x32.png",
+				"alttp/powder_32x32.png"
+			]
+		},
+		{
+			"Name" : "fire rod",
+			"X" : "5",
+			"Y" : "40",
+			"Size" : "32, 32",
+			"Visible" : "true",
+			"ImageCollection" : [
+				"alttp/fire-rod-bw_32x32.png",
+				"alttp/fire-rod_32x32.png"
+			]
+		},
+		{
+			"Name": "ice rod",
+			"X" : "40",
+			"Y" : "40",
+			"Size" : "32, 32",
+			"Visible" : "true",
+			"ImageCollection" : [
+				"alttp/ice-rod-bw_32x32.png",
+				"alttp/ice-rod_32x32.png"
+			]
+		},
+		{
+			"Name" : "bombos",
+			"X" : "75",
+			"Y" : "40",
+			"Size" : "32, 32",
+			"Visible" : "true",
+			"ImageCollection" : [
+				"alttp/bombos-bw_32x32.png",
+				"alttp/bombos_32x32.png"
+			]
+		},
+		{
+			"Name" : "ether",
+			"X" : "110",
+			"Y" : "40",
+			"Size" : "32, 32",
+			"Visible" : "true",
+			"ImageCollection" : [
+				"alttp/ether-bw_32x32.png",
+				"alttp/ether_32x32.png"
+			]
+		},
+		{
+			"Name" : "quake",
+			"X" : "145",
+			"Y" : "40",
+			"Size" : "32, 32",
+			"Visible" : "true",
+			"ImageCollection" : [
+				"alttp/quake-bw_32x32.png",
+				"alttp/quake_32x32.png"
+			]
+		}
+	],
+	"Chronometers" : [
+		{
+			"Name" : "MainChronometer",
+			"X" : "5",
+			"Y" : "80",
+			"Visible" : "true",
+			"FontName" : "Calibri",
+			"FontSize" : "36",
+			"FontStyle" : "Bold",
+			"FontColor" : "White"
+		}
+	]
+}

@@ -1,0 +1,17 @@
+Items :{
+  "$id": "1",
+  "BoxName": "524927a4-4de4-4c1b-8c10-2777a71e1420",
+  "X": 0,
+  "Y": 0,
+  "BoxSize": "32, 32",
+  "ImageCollection": [
+    "Resources\\medallions\\blue-medallion_32x32.png",
+    "Resources\\medallions\\goron-stone_32x32.png",
+    "Resources\\medallions\\goron-stone-bw_32x32.png",
+    "Resources\\medallions\\blue-medallion-bw_32x32.png"
+  ],
+  "IndexActiveImage": 0,
+  "ActiveImagePath": null,
+  "AllowDrop": false,
+  "BoxVisible": true
+},

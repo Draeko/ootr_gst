@@ -1,0 +1,15 @@
+C:\Users\Drekorig\Documents\ootr_gst\OOTRandoTracker\bin\Debug\OOTRandoTracker.exe.config
+C:\Users\Drekorig\Documents\ootr_gst\OOTRandoTracker\bin\Debug\OOTRandoTracker.exe
+C:\Users\Drekorig\Documents\ootr_gst\OOTRandoTracker\bin\Debug\OOTRandoTracker.pdb
+C:\Users\Drekorig\Documents\ootr_gst\OOTRandoTracker\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Drekorig\Documents\ootr_gst\OOTRandoTracker\bin\Debug\OOTRandoLibrary.dll
+C:\Users\Drekorig\Documents\ootr_gst\OOTRandoTracker\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Drekorig\Documents\ootr_gst\OOTRandoTracker\bin\Debug\OOTRandoLibrary.pdb
+C:\Users\Drekorig\Documents\ootr_gst\OOTRandoTracker\obj\Debug\OOTRandoTracker.csproj.AssemblyReference.cache
+C:\Users\Drekorig\Documents\ootr_gst\OOTRandoTracker\obj\Debug\OOTRandoTracker.csproj.SuggestedBindingRedirects.cache
+C:\Users\Drekorig\Documents\ootr_gst\OOTRandoTracker\obj\Debug\OOTRandoTracker.Properties.Resources.resources
+C:\Users\Drekorig\Documents\ootr_gst\OOTRandoTracker\obj\Debug\OOTRandoTracker.csproj.GenerateResource.cache
+C:\Users\Drekorig\Documents\ootr_gst\OOTRandoTracker\obj\Debug\OOTRandoTracker.csproj.CoreCompileInputs.cache
+C:\Users\Drekorig\Documents\ootr_gst\OOTRandoTracker\obj\Debug\OOTRandoTracker.csproj.CopyComplete
+C:\Users\Drekorig\Documents\ootr_gst\OOTRandoTracker\obj\Debug\OOTRandoTracker.exe
+C:\Users\Drekorig\Documents\ootr_gst\OOTRandoTracker\obj\Debug\OOTRandoTracker.pdb

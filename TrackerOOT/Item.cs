@@ -21,8 +21,8 @@ namespace TrackerOOT
             this.BackColor = Color.Transparent;
             if (listImageName.Count > 0)
             {
-                this.Name = listImageName[0];
-                this.Image = Image.FromFile(@"Resources/" + listImageName[0]);
+                this.Name = listImageName[data.IndexFirstImage];
+                this.Image = Image.FromFile(@"Resources/" + listImageName[data.IndexFirstImage]);
                 this.SizeMode = PictureBoxSizeMode.StretchImage;
                 this.Size = ItemSize;
             }            
@@ -32,23 +32,58 @@ namespace TrackerOOT
             this.MouseUp += this.Click_MouseUp;
             this.MouseDown += this.Click_MouseDown;
             this.MouseMove += this.Click_MouseMove;
+            if(Form1.EnableMouseWheel_Items)
+                this.MouseWheel += this.Item_MouseWheel;
+        }
+
+        private void Item_MouseWheel(object sender, MouseEventArgs e)
+        {
+            if (e.Delta > 0)
+            {
+                if (Form1.MouseWheel_Items_IncreaseWithScrollUp) ItemNextImage(); else ItemPreviousImage();
+            }
+
+            if(e.Delta < 0)
+            {
+                if (Form1.MouseWheel_Items_IncreaseWithScrollUp) ItemPreviousImage(); else ItemNextImage();
+            }
+        }
+
+        private void ItemNextImage()
+        {
+            var index = listImageName.FindIndex(x => x == this.Name);
+            if (index >= listImageName.Count - 1)
+            {
+                this.Image = Image.FromFile(@"Resources/" + listImageName[0]);
+                this.Name = listImageName[0];
+            }
+            else
+            {
+                this.Image = Image.FromFile(@"Resources/" + listImageName[index + 1]);
+                this.Name = listImageName[index + 1];
+            }
+        }
+
+        private void ItemPreviousImage()
+        {
+            var index = listImageName.FindIndex(x => x == this.Name);
+            if (index == 0)
+            {
+                this.Image = Image.FromFile(@"Resources/" + listImageName[listImageName.Count - 1]);
+                this.Name = listImageName[listImageName.Count - 1];
+            }
+            else
+            {
+                this.Image = Image.FromFile(@"Resources/" + listImageName[index - 1]);
+                this.Name = listImageName[index - 1];
+            }
         }
 
         private void Click_MouseUp(object sender, MouseEventArgs e)
         {
             if(e.Button == MouseButtons.Left)
             {
-                var index = listImageName.FindIndex(x => x == this.Name) + 1;
-                if (index <= 0 || index >= listImageName.Count)
-                {
-                    this.Image = Image.FromFile(@"Resources/" + listImageName[0]);
-                    this.Name = listImageName[0];
-                }
-                else
-                {
-                    this.Image = Image.FromFile(@"Resources/" + listImageName[index]);
-                    this.Name = listImageName[index];
-                }
+                ItemNextImage();
             }
         }
 
@@ -63,7 +98,8 @@ namespace TrackerOOT
         {
             if (e.Button == MouseButtons.Left && isMouseDown)
             {
-                this.DoDragDrop(listImageName[1], DragDropEffects.Copy);
+                if(listImageName.Count > 1)
+                    this.DoDragDrop(listImageName[1], DragDropEffects.Copy);
                 isMouseDown = false;
             }
         }

@@ -1,0 +1,46 @@
+{
+	"Items" :[
+	{
+  "$id": "1",
+  "BoxName": "95b1f60b-6626-4e69-8cbc-90cdef079d5e",
+  "X": 0,
+  "Y": 0,
+  "BoxSize": "32, 32",
+  "ImageCollection": [
+    "C:\\Users\\Drekorig\\Documents\\ootr_gst\\OOTRandoTrackerGUI\\bin\\Debug\\net6.0-windows\\Resources\\medallions\\blue-medallion_32x32.png",
+    "C:\\Users\\Drekorig\\Documents\\ootr_gst\\OOTRandoTrackerGUI\\bin\\Debug\\net6.0-windows\\Resources\\medallions\\blue-medallion-bw_32x32.png"
+  ],
+  "IndexActiveImage": 0,
+  "ActiveImagePath": null,
+  "AllowDrop": false,
+  "BoxVisible": true
+},{
+  "$id": "1",
+  "BoxName": "b3c6aa20-9abb-477f-94d2-de45eec22f3d",
+  "X": 0,
+  "Y": 0,
+  "BoxSize": "32, 32",
+  "ImageCollection": [
+    "C:\\Users\\Drekorig\\Documents\\ootr_gst\\OOTRandoTrackerGUI\\bin\\Debug\\net6.0-windows\\Resources\\medallions\\goron-stone_32x32.png",
+    "C:\\Users\\Drekorig\\Documents\\ootr_gst\\OOTRandoTrackerGUI\\bin\\Debug\\net6.0-windows\\Resources\\medallions\\goron-stone-bw_32x32.png"
+  ],
+  "IndexActiveImage": 0,
+  "ActiveImagePath": null,
+  "AllowDrop": false,
+  "BoxVisible": true
+},{
+  "$id": "1",
+  "BoxName": "c5988c00-e9f8-4114-aa3b-dad02cbf6d45",
+  "X": 0,
+  "Y": 0,
+  "BoxSize": "32, 32",
+  "ImageCollection": [
+    "C:\\Users\\Drekorig\\Documents\\ootr_gst\\OOTRandoTrackerGUI\\bin\\Debug\\net6.0-windows\\Resources\\medallions\\zora-stone_32x32.png",
+    "C:\\Users\\Drekorig\\Documents\\ootr_gst\\OOTRandoTrackerGUI\\bin\\Debug\\net6.0-windows\\Resources\\medallions\\zora-stone-bw_32x32.png"
+  ],
+  "IndexActiveImage": 0,
+  "ActiveImagePath": null,
+  "AllowDrop": false,
+  "BoxVisible": true
+},]
+}
